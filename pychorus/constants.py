@@ -12,5 +12,4 @@ MIN_LINES = 8
 NUM_ITERATIONS = 8
 
 # We allow an error proportional to the length of the clip
-# OVERLAP_PERCENT_MARGIN = 0.2
-OVERLAP_PERCENT_MARGIN = 0.1
+OVERLAP_PERCENT_MARGIN = 0.5
