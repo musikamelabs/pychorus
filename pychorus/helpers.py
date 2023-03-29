@@ -178,7 +178,7 @@ def find_and_output_chorus(input_file, output_file, clip_length=15):
     if chorus_start is None:
         return
 
-    print("The Best chorus found at {0:g} min {1:.2f} sec".format(
+    print("Best chorus found at {0:g} min {1:.2f} sec".format(
         chorus_start // 60, chorus_start % 60))
 
     if output_file is not None:
