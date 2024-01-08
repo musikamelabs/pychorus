@@ -4,7 +4,7 @@ SMOOTHING_SIZE_SEC = 2.5
 # Number of samples to consider in one chunk.
 # Smaller values take more time, but are more accurate
 # Original value/code: N_FFT = 2**14
-N_FFT = 2**16
+N_FFT = 2**15
 
 # For line detection
 LINE_THRESHOLD = 0.15
